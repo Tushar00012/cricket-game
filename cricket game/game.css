@@ -1,0 +1,48 @@
+*{
+   padding: 0;
+   border: 0;
+}
+body{
+   display: flex;
+   justify-content: center; 
+}
+.container{
+   border: 3px solid black;
+   width: 50vw;
+   height: 90vh;
+   text-align: center;
+}
+.reset{
+   border: 2px solid black;
+   margin: 10px;
+}
+.bat,.ball,.stump{
+   border: 2px solid black;
+   margin: 10px;
+   /* background-color: rgba(3, 192, 186, 0.851); */
+   border-radius: 50%;
+   /* background-color: transparent; */
+}
+
+img{
+   width: 10vw;
+   height: 20vh;
+   border-radius: 50%;
+   background-color: transparent;
+   /* background-color: aqua; */
+   /* mix-blend-mode: color-burn; */
+   /* z-index: -1; */
+
+}
+
+button:hover{
+   transform: scale(1.07);
+   transition-duration:40ms ;
+   
+}
+.reset{
+   width: 12vw;
+   height: 30px;
+   font-size: large;
+   border-radius: 60px;
+}
